@@ -89,4 +89,3 @@ Synthetic HR dataset simulating employee records, performance history, and organ
 
 ---
 
-Would you like me to also generate a **LinkedIn post** to go with this? Or do you want to embed project links/screenshots into this README?
