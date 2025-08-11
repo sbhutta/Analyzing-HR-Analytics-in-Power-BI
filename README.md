@@ -1,91 +1,106 @@
-## 📊 Atlas Labs | Employee Attrition Analysis Dashboard
-
-This Power BI project presents an end-to-end analysis of employee attrition and demographics for **Atlas Labs**, designed to help HR and leadership teams uncover workforce trends, identify retention risks, and personalize employee support strategies.
-
-### 🔍 Project Overview
-
-The dashboard explores hiring trends, department-level attrition, employee demographics, and individual performance insights. It empowers data-driven decisions to improve employee retention, satisfaction, and diversity initiatives.
+# 📊 Atlas Labs | Employee Attrition Analysis Dashboard  
+An end-to-end **Power BI dashboard** analyzing employee attrition and workforce demographics for **Atlas Labs**, designed to help HR and leadership teams uncover trends, identify retention risks, and create personalized employee support strategies.  
 
 ---
 
-### 📁 Report Pages Breakdown
-
-#### **1. Overview**
-
-A high-level summary of current workforce status, including total headcount, active/inactive employees, and hiring trends over time.
-
-* **Key KPIs**: Total Employees, Active Employees, Inactive Employees, Attrition Rate (16.1%)
-* **Visuals**: Hiring trend by year, department-wise employee breakdown, job role distribution
-* **Insights**:
-
-  * Technology department has the highest number of employees.
-  * Hiring peaked in 2022 but attrition continues to impact growth.
+## 📋 Project Overview  
+This dashboard provides a comprehensive analysis of employee hiring patterns, department-level attrition, demographic diversity, and performance metrics. It enables HR professionals and business leaders to make data-driven decisions that enhance retention, boost employee satisfaction, and promote equity in the workplace.  
 
 ---
 
-#### **2. Attritions**
-
-A deep dive into employee turnover across various dimensions.
-
-* **Key KPIs**: Overall Attrition Rate (16.1%)
-* **Visuals**: Attrition by department, job role, overtime, travel frequency, tenure, and hire date
-* **Insights**:
-
-  * Sales Representatives and frequent travelers have the highest attrition.
-  * Employees working overtime are more likely to leave.
-  * Early tenure is the most vulnerable period for turnover.
+## 🛠 Tech Stack  
+- 📊 **Power BI Desktop** – Data visualization and reporting  
+- 🧮 **DAX** – Custom KPIs and calculations  
+- 🔄 **Power Query** – Data transformation and cleaning  
+- 🔗 **Data Modeling** – Relationships between HR data tables  
+- 🎛️ **Interactive Filters & Slicers** – Drill-down analysis  
 
 ---
 
-#### **3. Demographics**
+## 🔍 Data Source  
+**Source:** Synthetic HR dataset simulating employee records, performance history, and organizational roles.  
 
-Explores the workforce’s age, gender, marital status, and ethnicity profiles.
-
-* **Key KPIs**: Youngest Employee (18), Oldest (51), Marital Status Breakdown
-* **Visuals**: Age distribution, gender ratio by age, salary comparison by ethnicity
-* **Insights**:
-
-  * Majority of employees are under 30 years old.
-  * Workforce is predominantly married or single.
-  * Significant diversity exists across ethnicity, with varying salary trends.
+Includes:  
+- Employee demographics (age, gender, marital status, ethnicity)  
+- Work-related factors (department, job role, overtime, travel frequency)  
+- Performance and satisfaction ratings  
+- Historical hiring and attrition data  
 
 ---
 
-#### **4. Performance Tracker**
+## 📊 Dashboard Pages & Key Visuals  
 
-An interactive page to analyze performance and satisfaction trends at the individual employee level.
+### 1️⃣ Overview  
+**KPIs:** Total Employees, Active Employees, Inactive Employees, Attrition Rate *(16.1%)*  
+**Visuals:**  
+- Hiring trend by year  
+- Department-wise employee distribution  
+- Job role composition  
 
-* **Key KPIs**: Start Date, Last Review, Next Review
-* **Visuals**: Job Satisfaction, Work-Life Balance, Manager Rating (tracked over years)
-* **Insights**:
+![Overview](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Overview.png)  
 
-  * Performance ratings for the selected employee ("Estelle Chung") have declined steadily since 2020.
-  * Work-Life Balance recovered in 2022 after a dip.
-  * Useful tool for HR and managers during performance reviews.
-
----
-
-### 📌 Tools & Technologies
-
-* **Power BI Desktop**
-* **DAX & Power Query**
-* **Data Modeling & Relationships**
-* **Interactive Filters and Slicers**
+**Insights:**  
+- Technology department has the largest workforce.  
+- Hiring peaked in **2022**, but attrition continues to affect growth.  
 
 ---
 
-### 📥 Dataset
+### 2️⃣ Attritions  
+**KPIs:** Overall Attrition Rate *(16.1%)*  
+**Visuals:**  
+- Attrition by department, job role, overtime, travel frequency, tenure, hire date  
 
-Synthetic HR dataset simulating employee records, performance history, and organizational roles.
+![Attritions](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Attrition.png)  
+
+**Insights:**  
+- **Sales Representatives** and frequent travelers face the highest attrition.  
+- Overtime work is strongly linked to turnover.  
+- Early tenure is the most vulnerable period for leaving.  
 
 ---
 
-### 🎯 Key Learning Outcomes
+### 3️⃣ Demographics  
+**KPIs:** Youngest Employee *(18)*, Oldest *(51)*, Marital Status Breakdown  
+**Visuals:**  
+- Age distribution  
+- Gender ratio by age  
+- Salary comparison by ethnicity  
 
-* Built a multi-page, business-oriented BI dashboard
-* Used KPI cards, custom visuals, and slicers for interactivity
-* Analyzed attrition using business logic (tenure, overtime, travel, etc.)
-* Applied demographic analysis to assess diversity & compensation equity
+![Demographics](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Demographics.png)  
+
+**Insights:**  
+- Most employees are **under 30 years old**.  
+- Workforce is predominantly **married or single**.  
+- Diversity exists across ethnicities, with notable salary variations.  
 
 ---
 
+### 4️⃣ Performance Tracker  
+**KPIs:** Start Date, Last Review, Next Review  
+**Visuals:**  
+- Job Satisfaction trends  
+- Work-Life Balance ratings over years  
+- Manager Ratings history  
+
+![Performance Tracker](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Performance%20Tracker.png)  
+
+**Insights:**  
+- Selected employee **Estelle Chung** has had declining performance since **2020**.  
+- Work-Life Balance recovered in **2022** after a dip.  
+- Useful for HR during **performance reviews** and retention planning.  
+
+---
+
+## 🚀 Business Impact & Insights  
+- Identify **high-attrition roles** for targeted retention strategies.  
+- Monitor **demographic diversity** and pay equity.  
+- Track **performance trends** to personalize employee development.  
+- Align HR initiatives with **data-driven evidence**.  
+
+---
+
+## 🎯 Key Learning Outcomes  
+- Designed a **multi-page, business-focused BI dashboard**.  
+- Implemented KPI cards, custom visuals, and slicers for interactivity.  
+- Used **attrition business logic** (tenure, overtime, travel) for insights.  
+- Applied **demographic analysis** to assess diversity & compensation fairness.  
