@@ -47,7 +47,7 @@ Includes:
 
 ### 2️⃣ Attritions  
 **KPIs:** Overall Attrition Rate *(16.1%)*  
-**Visuals:**  
+**Visuals:**   
 - Attrition by department, job role, overtime, travel frequency, tenure, hire date  
 
 ![Attritions](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Attrition.png)  
