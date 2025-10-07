@@ -50,7 +50,7 @@ Includes:
 **Visuals:**   
 - Attrition by department, job role, overtime, travel frequency, tenure, hire date  
 
-![Attritions](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Attrition.png)  
+![Attrition](Analyzing%20HR%20Analystics%20in%20Power%20BI/Screenshots/Attrition.png)  
 
 **Insights:**  
 - **Sales Representatives** and frequent travelers face the highest attrition.  
